@@ -82,7 +82,7 @@ const soundEx = (name) => {
 function main() {
   const nameMap = {}
 
-  const data = fs.readFileSync('./names.txt', 'utf8')
+  const data = fs.readFileSync('./girl_names.txt', 'utf8')
   const names = data.split('\n').map(name => name.trim()).filter(name => name !== '')
 
   names.forEach(name => {
